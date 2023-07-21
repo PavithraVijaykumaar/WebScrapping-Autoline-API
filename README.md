@@ -40,7 +40,8 @@ After forming the dataframe, both the dataframes are converted into single dataf
 
     merged=pd.concat([ford_pages_df,ford_pages2_df],ignore_index=True)
 
-merged is the combined dataset of both the cities. The merged dataset is stored as an excel named as `Ford`
+`merged` is the combined dataset of both the cities. The merged dataset is stored as an excel named as `Ford`
+
 For viewing the dataset, click [Dataset](ford.csv)
 
 
