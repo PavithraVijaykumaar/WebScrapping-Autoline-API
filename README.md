@@ -44,6 +44,8 @@ After forming the dataframe, both the dataframes are converted into single dataf
 
 For viewing the dataset, click [Dataset](ford.csv)
 
+For viewing the notebook, click [Jupyter](WebScrapping-API)
+
 
 ## About FastAPI
 
