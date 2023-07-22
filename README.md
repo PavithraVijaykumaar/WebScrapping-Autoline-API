@@ -55,12 +55,12 @@ FastAPI is a modern, fast, and web framework for building APIs with Python. Whil
     app=FastAPI()
 This command starts the working of FastAPI
 
-The fastAPI code for connecting to the local host, [FastAPI](mainn.py)
+For viewving the fastAPI code for connecting to the local host, click [FastAPI](mainn.py)
 
     response= requests.get('http://127.0.0.1:8000/data')
 The above local host shows the scrapped data and it can be retrieved using `requests` library
 
-The data retrieved from Local host, [LocalHost](data-from-localhost-API.ipynb)
+For viewing the data retrieved from Local host, click [LocalHost](data-from-localhost-API.ipynb)
 
 ## About Uvicorn 
 
@@ -79,4 +79,4 @@ The above link is the API, generated for accessing the deployed data.
      response=requests.get('https://ford-autolist-api.onrender.com/data')
 Using response library, the API is passed for retrieving the information
 
-The data retrieved from Local host, [Render API](data-from-Render-API.ipynb)
+For viewing the data retrieved from Local host, click [Render API](data-from-Render-API.ipynb)
