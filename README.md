@@ -1,6 +1,10 @@
 # WebScrapping-Autoline-API
 
-This project is based on webscrapping a webpage named `Autoline` which finds and lists the details of reused cars in the mentioned city. For accessing the details in the webpage, `cURL` is used for sending HTTP request to the webpage using the `requests` library in python. After successfully establishing a connection, the necessary datas are received from the webpage. Two cities namely `California` and `Monowa` are selected for fetching of car details. The scrapped datas are converted into `pandas` Dataframe and is stored as an `Excel` sheet. For deploying the scrapped data, `FastAPI` is used for connecting to a localHost and display the details. After successfully retrieving the data from the localhost, the details is deployed in `Render` cloud platform and API is generated for retrieving the data deployed in the cloud.
+This project centers around web scraping the webpage "Autoline" to extract and list the details of used cars in specific cities. To access the webpage's details, we use the `cURL` method to send an HTTP request through the `requests` library in Python. Upon establishing a successful connection, we retrieve the necessary data from the webpage.
+
+The project focuses on two cities, namely "California" and "Monowa," from which car details are fetched. The scraped data is then converted into a `pandas` DataFrame and stored as an Excel sheet for further analysis.
+
+For deploying the scraped data, we utilize `FastAPI` to establish a connection with the localHost and display the details. After successfully retrieving the data from the localhost, we deploy the information to the `Render` cloud platform and generate an API for accessing the data stored in the cloud.
 
 ## About the libraries used
 
@@ -71,7 +75,7 @@ This command is used for running the FastAPI application and connect to a local 
 
 ## About Render
 
-Render cloud platform is used for deploying app in here, the datas scrapped from the website is deployed and API is generated for accessing and retrieving the data from the cloud. The render API also enables us to send requests for data retrieval and converting them into DataFrames and perform operations.
+The Render cloud platform is utilized to deploy the application. The scraped data from the website is deployed, and an API is generated to facilitate data access and retrieval from the cloud. With the Render API, we can send requests to retrieve the data and convert it into DataFrames for further operations.
 
      https://ford-autolist-api.onrender.com/data
 The above link is the API, generated for accessing the deployed data.
